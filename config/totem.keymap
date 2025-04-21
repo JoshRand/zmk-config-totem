@@ -58,7 +58,7 @@
                             &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT        &kp CARET   &kp AMPS    &kp KP_MULTIPLY   &kp SQT     &kp DQT       
                             &kp RC(A)   &kp RC(S)   &kp RA(S)   &kp RC(F)   &kp TAB          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
                 &trans      &kp RC(Z)   &kp RC(X)   &kp RC(C)   &kp RC(V)   &kp DEL          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                                    &trans      &kp RALT    &kp RCTRL        &trans      &kp C_PP    &trans      
+                                                    &trans      &kp RALT    &kp RCTRL        &kp LGUI      &kp C_PP    &trans      
             >;
         };
         NAV {
