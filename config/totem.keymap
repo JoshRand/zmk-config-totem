@@ -66,7 +66,7 @@
                             &kp DEL     &bt PG_UP   &kp KP_PLUS &kp LBRC  &kp RBRC         &kp EQUAL    &kp KP_7   &kp KP_8   &kp KP_9   &kp KP_PLUS
                             &kp UP      &kp PG_DN   &kp EQUAL   &kp LBKT  &kp RBKT         &kp RIGHT    &kp KP_4   &kp KP_5   &kp KP_6   &kp KP_MINUS
                 &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS    &kp LPAR  &kp RPAR         &kp PG_DN    &kp KP_1   &kp KP_2   &kp KP_3   &kp KP_MULTIPLY &kp GRAVE      
-                                                    &BSLH       &kp TAB   &kp PIPE         &trans       &kp KP_0   &mo ADJ      
+                                                    &kp BSLH    &kp TAB   &kp PIPE         &trans       &kp KP_0   &mo ADJ      
             >;
         };
         ADJ {
