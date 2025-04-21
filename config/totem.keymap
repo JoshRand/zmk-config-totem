@@ -49,23 +49,23 @@
             bindings = <
                             &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P
                             &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp R       &kp K       &kp L       &kp SEMI
-          &mt LSHIFT ESCAPE  &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH &mt RSHIFT MINUS 
+          &mt LSHIFT ESCAPE &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH &mt RSHIFT MINUS 
                                                     &kp TAB     &kp SPACE   &kp BSPC    &mo NAV     &kp RETURN     &mo SYM 
             >;
         };
         SYM {
             bindings = <
                             &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                            &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-                &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                                    &kp DEL     &kp RALT    &kp RCTRL          &trans      &kp C_PP    &trans      
+                            &kp RC(A)   &kp RC(S)   &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
+                &trans      &kp RC(Z) &kp RC(X)     &RC(C)      &RC(V)      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
+                                                    &kp DEL     &kp RALT    &kp RCTRL       &trans      &kp C_PP    &trans      
             >;
         };
         NAV {
             bindings = <
-                            &kp DEL     &kp PG_UP   &kp LBRC   &kp RBRC  &kp KP_PLUS       &kp EQUAL    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
-                            &kp UP      &kp PG_DN   &kp LBKT   &kp RBKT  &kp EQUAL         &kp RIGHT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
-                &kp LEFT    &kp DOWN    &kp RIGHT   &kp LPAR   &kp RPAR  &kp CAPS          &kp PG_DN    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &kp GRAVE      
+                            &kp DEL     &kp PG_UP   &kp LPAR   &kp RPAR  &kp KP_PLUS       &kp EQUAL    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
+                            &kp UP      &kp PG_DN   &kp LBRC   &kp RBRC  &kp EQUAL         &kp RIGHT    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
+                &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT   &kp RBKT  &kp CAPS          &kp PG_DN    &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &kp GRAVE      
                                                     &kp BSLH   &kp GRAVE &kp PIPE          &trans       &kp KP_N0   &mo ADJ      
             >;
         };
