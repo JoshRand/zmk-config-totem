@@ -54,14 +54,10 @@
                 key-positions = <0 1>;
                 bindings = <&kp TAB>;
             };
-            combo_return {
-                timeout-ms = <50>;
-                key-positions = <16 17 18>;
-                bindings = <&kp RETURN>;
-            };
+           
            combo_hyphen {
                 timeout-ms = <50>;
-                key-positions = <30 31>;
+                key-positions = <19 31>;
                 bindings = <&kp MINUS>;
             };
            combo_tilde {
@@ -77,7 +73,7 @@
                             &kp Q       &kp W       &kp E       &kp R       &kp T                  &kp Y       &kp U       &kp I       &kp O       &kp P
                             &kp A       &kp S       &kp D       &kp F       &kp G                   &kp H       &kp J       &kp K       &kp L       &kp SEMI
           &kp ESCAPE        &kp Z        &kp X      &kp C       &kp V       &kp B                  &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH     &kp SQT 
-                                          &lt SYM TAB  &kp SPACE   &mt LCTRL BSPC          &kp LSHIFT   &lt NAV TAB     &mt LALT DEL
+                                          &lt SYM  &kp SPACE   &mt LCTRL BSPC          &kp LSHIFT   &lt NAV RETURN     &mt LALT DEL
             >;
         };
         SYM {
