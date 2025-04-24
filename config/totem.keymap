@@ -56,10 +56,19 @@
             };
             combo_return {
                 timeout-ms = <50>;
-                key-positions = <7 8 9>;
+                key-positions = <16 17 18>;
                 bindings = <&kp RETURN>;
             };
-          
+           combo_hyphen {
+                timeout-ms = <50>;
+                key-positions = <30 31>;
+                bindings = <&kp MINUS>;
+            };
+           combo_tilde {
+                timeout-ms = <50>;
+                key-positions = <0 20>;
+                bindings = <&kp TILDE>;
+            };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -76,7 +85,7 @@
                             &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT        &kp CARET   &kp AMPS    &kp KP_MULTIPLY   &kp SQT     &kp DQT       
                             &kp RC(A)   &kp RC(S)   &kp RA(S)   &kp RC(F)   &kp TAB          &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT   &kp RA(O) 
                 &trans      &kp RC(Z)   &kp RC(X)   &kp RC(C)   &kp RC(V)   &kp DEL          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                                    &kp RALT    &kp RCTRL &trans             &kp LGUI   &trans      &trans      
+                                                    &trans    &trans &trans             &kp LGUI   &trans      &trans      
             >;
         };
         NAV {
