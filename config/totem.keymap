@@ -72,13 +72,13 @@
             bindings = <
                             &kp Q       &kp W       &kp E       &kp R       &kp T                  &kp Y       &kp U       &kp I       &kp O       &kp P
                             &kp A       &kp S       &kp D       &kp F       &kp G                   &kp H       &kp J       &kp K       &kp L       &kp SEMI
-          &kp ESCAPE        &kp Z       &kp X      &kp C       &kp V       &kp B                  &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH     &kp SQT 
-                                        &mo SYM  &kp SPACE   &mt LCTRL BSPC                      &kp LSHIFT   &lt NAV RETURN     &mt LALT DEL
+          &mt LSHIFT ESCAPE        &kp Z       &kp X      &kp C       &kp V       &kp B                  &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH     &mt RSHIFT MINUS 
+                                        &mo SYM  &kp SPACE   &mt LCTRL BSPC                      &mo NAV   &kp RETURN     &mt LALT DEL
             >;
         };
         SYM {
             bindings = <
-                            &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT        &kp CARET   &kp AMPS    &kp KP_MULTIPLY   &kp SQT     &kp DQT       
+                            &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT        &kp CARET   &kp AMPS    &kp KP_MULTIPLY   &kp  DQT     &kp SQT      
                             &kp RC(A)   &kp RC(S)   &kp RA(S)   &kp RC(F)   &kp TAB          &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT   &kp RA(O) 
                 &trans      &kp RC(Z)   &kp RC(X)   &kp RC(C)   &kp RC(V)   &kp DEL          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
                                                     &trans    &trans &trans             &kp LGUI   &trans      &trans      
@@ -89,7 +89,7 @@
                             &kp DEL     &kp PG_UP   &kp LPAR   &kp RPAR &kp KP_PLUS        &kp EQUAL    &kp N7   &kp N8   &kp N9   &kp KP_PLUS
                             &kp UP      &kp PG_DN   &kp LBRC   &kp RBRC &kp EQUAL          &kp DQT      &kp N4   &kp N5   &kp N6   &kp KP_MINUS
                 &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT   &kp RBKT  &kp CAPS          &kp SQT      &kp N1   &kp N2   &kp N3   &kp KP_MULTIPLY &kp GRAVE      
-                                                    &kp BSLH   &kp TILDE &kp PIPE              &mo ADJ   &trans     &kp N0     
+                                                    &kp PIPE   &kp TILDE &kp RC(BSPC)              &mo ADJ   &trans     &kp N0     
             >;
         };
         ADJ {
