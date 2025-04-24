@@ -27,7 +27,12 @@
   flavor = "tap-preferred";
   tapping-term-ms = <170>;
 };
-
+&lt {
+  quick-tap-ms = <100>;
+  global-quick-tap;
+  flavor = "tap-preferred";
+  tapping-term-ms = <170>;
+};
 / {
     macros {
         gif: gif {
@@ -49,20 +54,16 @@
                 key-positions = <0 1>;
                 bindings = <&kp TAB>;
             };
-             combo_enter {
-                timeout-ms = <50>;
-                key-positions = <7 8 9>;
-                bindings = <&kp RETURN>;
-            };
+          
     };
     keymap {
         compatible = "zmk,keymap";
         BASE {
             bindings = <
-                            &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P
-                            &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI
-          &kp ESCAPE &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH &kp SQT 
-                                                    &mt LCTRL BSPC   &lt SYM TAB  BSPC &kp SPACE        &kp LSHIFT   &lt NAV TAB     &mt LALT DEL
+                            &kp Q       &kp W       &kp E       &kp R       &kp T                  &kp Y       &kp U       &kp I       &kp O       &kp P
+                            &kp A       &kp S       &kp D       &kp F       &kp G                   &kp H       &kp J       &kp K       &kp L       &kp SEMI
+          &kp ESCAPE        &kp Z        &kp X      &kp C       &kp V       &kp B                  &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH     &kp SQT 
+                                         &mt LCTRL BSPC   &lt SYM TAB  BSPC &kp SPACE            &kp LSHIFT   &lt NAV TAB     &mt LALT DEL
             >;
         };
         SYM {
