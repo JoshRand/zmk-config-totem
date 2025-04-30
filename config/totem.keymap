@@ -95,10 +95,10 @@
                 };
        NAV {
             bindings = <
-                            &kp DEL    &kp KP_PLUS   &kp LPAR   &kp RPAR  &kp PG_UP        &kp EQUAL    &kp N7   &kp KP_MULTIPLY   &kp N9   &kp KP_PLUS
-                            &kp LGUI     &kp EQUAL    &kp LBRC   &kp RBRC   &kp DLLR        &kp CARET      &kp DQT   &kp SQT   &kp UP   &kp KP_MINUS
-                &kp ESC    &kp DOWN    &kp RIGHT   &kp LBKT   &kp RBKT  &kp CAPS          &kp LCTRL      &kp LALT   &kp LEFT   &kp DOWN   &kp RIGHT  &kp GRAVE      
-                                                    &kp PIPE   &kp TILDE &kp RC(BSPC)       &trans   &trans     &kp N0     
+                            &kp TILDE    &kp KP_PLUS   &kp LPAR   &kp RPAR  &kp PG_UP        &kp PG_DOWN    &kp N7   &kp KP_MULTIPLY   &kp N9   &kp KP_PLUS
+                            &kp PIPE     &kp EQUAL    &kp LBRC   &kp RBRC   &kp DLLR        &kp CARET      &kp DQT   &kp SQT   &kp UP   &kp KP_MINUS
+                &kp ESC    &kp DEL    &kp LGUI   &kp LBKT   &kp RBKT  &kp CAPS          &kp LCTRL      &kp LALT   &kp LEFT   &kp DOWN   &kp RIGHT  &kp GRAVE      
+                                                    &trans   &kp BSPC &kp RC(BSPC)       &trans   &trans     &kp N0     
             >;
         };
        ADJ {
